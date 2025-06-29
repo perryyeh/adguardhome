@@ -23,8 +23,8 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-    - 192.168.0.1:53
-    - '[fd10:86:20::21:119]:53'
+    - 10.0.0.1:53
+    - '[fd10:00:00::1:119]:53'
   upstream_dns_file: ""
   bootstrap_dns:
     - 9.9.9.10
@@ -33,7 +33,7 @@ dns:
     - 2620:fe::fe:10
   fallback_dns:
     - '# 路由器'
-    - 192.168.0.1
+    - 10.0.0.1
     - '# ali'
     - 223.5.5.5
     - 2400:3200::1

@@ -7,7 +7,7 @@
 ||ads-video-al.xhscdn.com^
 ||ads-video-qc.xhscdn.com^
 ||ads-vp5.xhscdn.com^
-||-*.xhscdn.com^
+||ads-*.xhscdn.com^
 ||growth-img.xhscdn.com^
 ||sns-webpic.xhscdn.com^
 ||xhslive-video.xhscnd.com^

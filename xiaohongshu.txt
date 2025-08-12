@@ -1,0 +1,16 @@
+! Title: Yeh's Ruleset - xiaohongshu for AdGuardHome
+! Last Updated: 2025-08-12T12:00:00Z
+! License: GNU 3.0
+! Homepage: https://github.com/perryyeh/adguard
+||ads-img-al.xhscdn.com^
+||ads-img-qc.xhscdn.com^
+||ads-video-al.xhscdn.com^
+||ads-video-qc.xhscdn.com^
+||ads-vp5.xhscdn.com^
+||-*.xhscdn.com^
+||growth-img.xhscdn.com^
+||sns-webpic.xhscdn.com^
+||xhslive-video.xhscnd.com^
+||*.qiezibenpao.com^
+||*.redbascket.com^
+! EOF

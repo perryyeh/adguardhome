@@ -1,4 +1,4 @@
-! Title: Yeh's Ruleset - Blocklist for AdGuardHome
+! Title: pcdn for AdGuardHome
 ! Last Updated: 2025-04-22T23:00:00Z
 ! License: GNU 3.0
 ! Homepage: https://github.com/perryyeh/adguard

@@ -1,0 +1,17 @@
+! Title: mobilenumber - Blocklist for AdGuardHome
+! Last Updated: 2025-09-03T12:00:00Z
+! License: GNU 3.0
+! Homepage: https://github.com/perryyeh/adguard
+||cmpassport.com^
+||hmrz.wo.cn^
+||wostore.cn^
+||wosms.cn^
+||nisportal.10010.com^
+||e.189.cn^
+||id6.me^
+||volces.com^
+||ssports.com^
+||zijieapi.com^
+||ossapi.baidu.com^
+||dypnsapi.aliyuncs.com^
+! EOF

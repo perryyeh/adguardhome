@@ -1,4 +1,4 @@
-! Title: Yeh's Ruleset - xiaohongshu for AdGuardHome
+! Title: xiaohongshu for AdGuardHome
 ! Last Updated: 2025-08-12T12:00:00Z
 ! License: GNU 3.0
 ! Homepage: https://github.com/perryyeh/adguard

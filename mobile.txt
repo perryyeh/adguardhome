@@ -15,4 +15,6 @@
 ||zijieapi.com^
 ||ossapi.baidu.com^
 ||dypnsapi.aliyuncs.com^
+||sdk.beizi.biz^
+||vpp-license-proxy.aliyuncs.com^
 ! EOF

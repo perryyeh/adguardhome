@@ -4,8 +4,6 @@
 ! Homepage: https://github.com/perryyeh/adguard
 ||v1d.szbdyd.com^
 ||mcdn.bilivideo.cn^
-||tp2p.kg.qq.com^
-||twns.p2ptun.qq.com^
 ||sd-gl.xinqiucc.com^
 ||xyp-n.kuiniuca.com^
 ||sdk1xyajs.data.kuiniuca.com^
@@ -18,7 +16,6 @@
 ||onethingpcs.com^
 ||p2p-ali.douyucdn.cn^
 ||p2p.huya.com^
-||p2p.qq.com^
 ||p2pchunk-hw.douyucdn.cn^
 ||p2pchunk-table.douyucdn.cn^
 ||p2pchunk-ws.douyucdn.cn^
@@ -26,9 +23,11 @@
 ||p2plive-ali.douyucdn.cn^
 ||p2plive-ws.douyucdn.cn^
 ||p2plog.douyucdn.cn^
+||p2p.qq.com^
 ||p2ptun.qq.com^
 ||p2pupdate.gamedl.qq.com^
 ||p2pupgrade.gamedl.qq.com^
+||tp2p.kg.qq.com^
 ||p2pvod-ws.douyucdn.cn^
 ||pcdn.yximgs.com^
 ||pkoplink.com^

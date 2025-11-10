@@ -2,6 +2,7 @@
 ! Last Updated: 2025-09-03T12:00:00Z
 ! License: GNU 3.0
 ! Homepage: https://github.com/perryyeh/adguard
+@@verify.zijieapi.com^
 ||cmpassport.com^
 ||hmrz.wo.cn^
 ||wostore.cn^
@@ -12,7 +13,6 @@
 ||id6.me^
 ||volces.com^
 ||ssports.com^
-@@verify.zijieapi.com^
 ||zijieapi.com^
 ||ossapi.baidu.com^
 ||dypnsapi.aliyuncs.com^

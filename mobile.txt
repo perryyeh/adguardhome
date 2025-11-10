@@ -12,6 +12,7 @@
 ||id6.me^
 ||volces.com^
 ||ssports.com^
+@@verify.zijieapi.com^
 ||zijieapi.com^
 ||ossapi.baidu.com^
 ||dypnsapi.aliyuncs.com^

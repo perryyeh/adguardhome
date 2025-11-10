@@ -3,6 +3,7 @@
 ! License: GNU 3.0
 ! Homepage: https://github.com/perryyeh/adguard
 @@verify.zijieapi.com^
+@@mon.zijieapi.com^
 ||cmpassport.com^
 ||hmrz.wo.cn^
 ||wostore.cn^

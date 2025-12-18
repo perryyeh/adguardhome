@@ -1,0 +1,5 @@
+services:
+  adguardhome:
+    networks:
+      macvlan:
+        ipv6_address: ${adguard6}

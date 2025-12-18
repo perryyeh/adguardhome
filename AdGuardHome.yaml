@@ -52,7 +52,7 @@ dns:
     - ::1/128
   cache_size: 4194304
   cache_ttl_min: 60
-  cache_ttl_max: 180
+  cache_ttl_max: 600
   cache_optimistic: true
   bogus_nxdomain: []
   aaaa_disabled: false
@@ -68,8 +68,9 @@ dns:
   bootstrap_prefer_ipv6: false
   upstream_timeout: 10s
   private_networks: []
-  use_private_ptr_resolvers: false
-  local_ptr_upstreams: []
+  use_private_ptr_resolvers: true
+  local_ptr_upstreams: :
+    - 10.0.0.1
   use_dns64: false
   dns64_prefixes: []
   serve_http3: false
@@ -120,12 +121,28 @@ filters:
     id: 1744605515
 whitelist_filters: []
 user_rules:
-  - '# skk.moe误杀名单'
+  - '# 小米电视'
   - '@@ptmi.gitv.tv^'
   - '@@cdn.pandora.xiaomi.com^'
-  - '@@wxsnsdythumb.wxs.qq.com^'
+  - '@@redirect.pandora.xiaomi.com^'
+  - '@@idm.api.io.mi.com^'
+  - '@@resolver.mi.xiaomi.com^'
+  - '@@box.pandora.xiaomi.com^'
   - '@@ssl-cdn.static.browser.mi-img.com^'
+  - '# baidu'
   - '@@dlswbr.baidu.com^'
+  - '# 微信'
+  - '@@wxsnsdythumb.wxs.qq.com^'
+  - '@@dns.weixin.qq.com.cn^'
+  - '# 电信'
+  - '@@appupdates.189.cn^'
+  - '# 美团'
+  - '@@appsec-mobile.meituan.com^'
+  - '@@cdn.ynuf.aliapp.org^'
+  - '@@prism-report-web.dreport.meituan.net^'
+  - '@@dreport.meituan.net^'
+  - '# 其他'
+  - '@@aiseet.atianqi.com^'
   - '# 新增阻止名单'
   - '||bugsnag.com^'
 dhcp:

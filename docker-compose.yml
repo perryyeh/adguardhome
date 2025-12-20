@@ -9,8 +9,8 @@ services:
       macvlan:
         ipv4_address: ${adguard4}
     volumes:
-      - ${workdir}:/opt/adguardhome/work
-      - ${confdir}:/opt/adguardhome/conf
+      - ./../adguardwork:/opt/adguardhome/work
+      - ./:/opt/adguardhome/conf
 
 networks:
   macvlan:

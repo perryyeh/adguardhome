@@ -4,10 +4,10 @@ services:
     container_name: adguardhome
     hostname: adguardhome
     restart: always
-    mac_address: ${adguardmac}
     networks:
       macvlan:
         ipv4_address: ${adguard4}
+        mac_address: ${adguardmac}
     volumes:
       - ./../adguardwork:/opt/adguardhome/work
       - ./:/opt/adguardhome/conf

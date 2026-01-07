@@ -24,7 +24,7 @@ dns:
   refuse_any: true
   upstream_dns:
     - 10.0.1.119:53
-    - '[fd10::1:119]:53'
+    - '#[fd10::1:119]:53'
   upstream_dns_file: ""
   bootstrap_dns:
     - 9.9.9.10

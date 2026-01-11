@@ -1,2 +1,2 @@
 # adguard
-adguard config
+build for armbian

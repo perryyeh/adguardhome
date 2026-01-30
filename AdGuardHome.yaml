@@ -40,7 +40,7 @@ dns:
     - 1.1.1.1
     - 2606:4700:4700::1111
   upstream_mode: fastest_addr
-  fastest_timeout: 1s
+  fastest_timeout: 3s
   allowed_clients: []
   disallowed_clients: []
   blocked_hosts:
@@ -97,10 +97,10 @@ tls:
 querylog:
   dir_path: ""
   ignored: []
-  interval: 720h
-  size_memory: 1000
+  interval: 240h
+  size_memory: 10000
   enabled: true
-  file_enabled: true
+  file_enabled: false
 statistics:
   dir_path: ""
   ignored: []
@@ -203,7 +203,7 @@ clients:
     hosts: true
   persistent: []
 log:
-  enabled: true
+  enabled: false
   file: ""
   max_backups: 0
   max_size: 100

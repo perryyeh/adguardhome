@@ -115,10 +115,22 @@ filters:
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt
     name: AdAway Default Blocklist
     id: 2
-  - enabled: true
+  - enabled: false
     url: https://ruleset.skk.moe/Internal/reject-adguardhome.txt
     name: skk.moe
-    id: 1744605515
+    id: 3
+  - enabled: false
+    url: https://raw.githubusercontent.com/perryyeh/adguardhome/main/pcdn.txt
+    name: pcdn
+    id: 4
+  - enabled: false
+    url: https://raw.githubusercontent.com/perryyeh/adguardhome/main/xiaohongshu.txt
+    name: xiaohongshu
+    id: 5
+  - enabled: false
+    url: https://raw.githubusercontent.com/perryyeh/adguardhome/main/mobile.txt
+    name: mobile
+    id: 6
 whitelist_filters: []
 user_rules:
   - '# 小米电视'

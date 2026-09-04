@@ -19,4 +19,4 @@ services:
 networks:
   macvlan:
     external: true
-    name: ${MACVLAN_NET}
+    name: ${MACVLAN}

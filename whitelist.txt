@@ -1,0 +1,4 @@
+! Title: Whitelist for AdGuard Home
+! Homepage: https://github.com/perryyeh/adguardhome
+! Hongguo device registration
+@@||log.snssdk.com^

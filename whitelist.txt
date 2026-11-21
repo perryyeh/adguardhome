@@ -2,3 +2,5 @@
 ! Homepage: https://github.com/perryyeh/adguardhome
 ! Hongguo device registration
 @@||log.snssdk.com^
+! Taobao mobile click links
+@@||mclick.simba.taobao.com^|
